@@ -1,8 +1,8 @@
 <?php 
-namespace Memorarl\Anvil;
+namespace Memorasrl\Anvil;
 
 use Illuminate\Support\ServiceProvider;
-use Memorarl\Anvil\Commands\TestCommand;
+use Memorasrl\Anvil\Commands\TestCommand;
 
 class AnvilServiceProvider extends ServiceProvider
 {

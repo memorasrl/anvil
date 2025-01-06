@@ -1,6 +1,6 @@
 <?php
 
-namespace Memorarl\Anvil\Commands;
+namespace Memorasrl\Anvil\Commands;
 
 use Illuminate\Console\Command;
 
