@@ -1,6 +1,6 @@
 {
     "name": "memorasrl/anvil",
-    "type": "project",
+    "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
