@@ -1,0 +1,24 @@
+{
+    "name": "memorasrl/anvil",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Memorasrl\\Anvil\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "samuel-deguio",
+            "email": "samuel.deguio@memora.net"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Memorasrl\\Anvil\\AnvilServiceProvider"
+            ]
+        }
+    }
+}
