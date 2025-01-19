@@ -2,7 +2,7 @@
 namespace Memorasrl\Anvil;
 
 use Illuminate\Support\ServiceProvider;
-use Memorasrl\Anvil\Commands\TestCommand;
+use Memorasrl\Anvil\Commands\InstallCommand;
 
 class AnvilServiceProvider extends ServiceProvider
 {
@@ -10,6 +10,9 @@ class AnvilServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
+            $this->commands([
+                Install::class,
+            ]);
         }
     }
 
