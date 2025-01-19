@@ -11,7 +11,7 @@ class AnvilServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                Install::class,
+                InstallCommand::class,
             ]);
         }
     }
